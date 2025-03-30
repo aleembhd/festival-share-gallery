@@ -1,4 +1,3 @@
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -6,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "./", // Set base path to relative for GitHub Pages
+  base: "/festival-share-gallery/", // Update this to match your repo name
   build: {
     // Ensure proper MIME types for JavaScript modules
     rollupOptions: {
